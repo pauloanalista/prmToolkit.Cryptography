@@ -15,7 +15,7 @@ Ou por meio do gerenciador de pacotes do Visual Studio.
 
 Se você deseja usar injeção de dependência, é necessário registrar o serviço de criptografia na coleção de serviços (geralmente no arquivo _Startup.cs_):
 
-`` `c #
+```csharp
 using prmToolkit.Cryptography;
 using prmToolkit.Cryptography.Interfaces;
 
@@ -23,11 +23,11 @@ public void ConfigureServices (serviços IServiceCollection)
 {
     services.AddSingleton <ICrypto, Crypto> ();
 }
-`` `
+```
 
 Se você quiser usar manualmente, basta fazer:
 
-`` `c #
+```csharp
 using prmToolkit.Cryptography;
 using prmToolkit.Cryptography.Interfaces;
 
@@ -35,12 +35,12 @@ Public static async Task Main (string [] args)
 {
     ICrypto Crypto = new Crypto();
 }
-`` `
+```
 
 ## Uso
 Se você usar injeção de dependência, injete `ICrypto` em sua classe:
 
-`` `c #
+```csharp
 using prmToolkit.Cryptography;
 using prmToolkit.Cryptography.Interfaces;
 
@@ -62,11 +62,11 @@ public class MyClass {
         var decryptedContent = _crypto.Decrypt(encryptedContent, _privateEncryptionKey);
     }
 }
-`` `
+```
 
 Se você usar manualmente:
 
-`` `c #
+```csharp
 using prmToolkit.Cryptography;
 using prmToolkit.Cryptography.Interfaces;
 
@@ -83,4 +83,4 @@ public class MyClass {
         var decryptedContent = _crypto.Decrypt(encryptedContent, _privateEncryptionKey);
     }
 }
-`` `
+```
