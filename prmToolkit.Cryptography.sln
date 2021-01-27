@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3DDE34F1-86FC-478F-8D9D-3A88FD810B86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{306A3CFC-E5E9-4A64-A48C-B72911EB5D93}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prmToolkit.Cryptography", "src\prmToolkit.Cryptography\prmToolkit.Cryptography.csproj", "{A7D6A152-4B84-4900-8A64-692EE6186D11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prmToolkit.Cryptography.Tests", "tests\prmToolkit.Cryptography.Tests\prmToolkit.Cryptography.Tests.csproj", "{40D53DFA-649C-4944-AA0E-3D43ECA1DD43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7D6A152-4B84-4900-8A64-692EE6186D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D6A152-4B84-4900-8A64-692EE6186D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D6A152-4B84-4900-8A64-692EE6186D11}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A7D6A152-4B84-4900-8A64-692EE6186D11}.Debug|x64.Build.0 = Debug|Any CPU
+		{A7D6A152-4B84-4900-8A64-692EE6186D11}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A7D6A152-4B84-4900-8A64-692EE6186D11}.Debug|x86.Build.0 = Debug|Any CPU
+		{A7D6A152-4B84-4900-8A64-692EE6186D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D6A152-4B84-4900-8A64-692EE6186D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7D6A152-4B84-4900-8A64-692EE6186D11}.Release|x64.ActiveCfg = Release|Any CPU
+		{A7D6A152-4B84-4900-8A64-692EE6186D11}.Release|x64.Build.0 = Release|Any CPU
+		{A7D6A152-4B84-4900-8A64-692EE6186D11}.Release|x86.ActiveCfg = Release|Any CPU
+		{A7D6A152-4B84-4900-8A64-692EE6186D11}.Release|x86.Build.0 = Release|Any CPU
+		{40D53DFA-649C-4944-AA0E-3D43ECA1DD43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D53DFA-649C-4944-AA0E-3D43ECA1DD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D53DFA-649C-4944-AA0E-3D43ECA1DD43}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{40D53DFA-649C-4944-AA0E-3D43ECA1DD43}.Debug|x64.Build.0 = Debug|Any CPU
+		{40D53DFA-649C-4944-AA0E-3D43ECA1DD43}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{40D53DFA-649C-4944-AA0E-3D43ECA1DD43}.Debug|x86.Build.0 = Debug|Any CPU
+		{40D53DFA-649C-4944-AA0E-3D43ECA1DD43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D53DFA-649C-4944-AA0E-3D43ECA1DD43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D53DFA-649C-4944-AA0E-3D43ECA1DD43}.Release|x64.ActiveCfg = Release|Any CPU
+		{40D53DFA-649C-4944-AA0E-3D43ECA1DD43}.Release|x64.Build.0 = Release|Any CPU
+		{40D53DFA-649C-4944-AA0E-3D43ECA1DD43}.Release|x86.ActiveCfg = Release|Any CPU
+		{40D53DFA-649C-4944-AA0E-3D43ECA1DD43}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40D53DFA-649C-4944-AA0E-3D43ECA1DD43} = {3DDE34F1-86FC-478F-8D9D-3A88FD810B86}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CAD953A-2069-4825-868E-366564CD1A76}
+	EndGlobalSection
+EndGlobal

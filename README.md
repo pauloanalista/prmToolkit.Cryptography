@@ -1,31 +1,31 @@
 # prmToolkit.Cryptography
-Uma biblioteca para fornecer um serviÃ§o de criptografia simples.
+Uma biblioteca para fornecer um serviço de criptografia simples.
 
 Atualmente suporta apenas criptografia AES de 256 bits.
 
-## InstalaÃ§Ã£o
+## Instalação
 
-VocÃª pode instalar a partir do NuGet usando o seguinte comando:
+Você pode instalar a partir do NuGet usando o seguinte comando:
 
 `Install-Package prmToolkit.Cryptography`
 
 Ou por meio do gerenciador de pacotes do Visual Studio.
 
-## ConfiguraÃ§Ã£o
+## Configuração
 
-Se vocÃª deseja usar injeÃ§Ã£o de dependÃªncia, Ã© necessÃ¡rio registrar o serviÃ§o de criptografia na coleÃ§Ã£o de serviÃ§os (geralmente no arquivo _Startup.cs_):
+Se você deseja usar injeção de dependência, é necessário registrar o serviço de criptografia na coleção de serviços (geralmente no arquivo _Startup.cs_):
 
 ```csharp
 using prmToolkit.Cryptography;
 using prmToolkit.Cryptography.Interfaces;
 
-public void ConfigureServices (serviÃ§os IServiceCollection)
+public void ConfigureServices (serviços IServiceCollection)
 {
     services.AddSingleton <ICrypto, Crypto> ();
 }
 ```
 
-Se vocÃª quiser usar manualmente, basta fazer:
+Se você quiser usar manualmente, basta fazer:
 
 ```csharp
 using prmToolkit.Cryptography;
@@ -38,7 +38,7 @@ Public static async Task Main (string [] args)
 ```
 
 ## Uso
-Se vocÃª usar injeÃ§Ã£o de dependÃªncia, injete `ICrypto` em sua classe:
+Se você usar injeção de dependência, injete `ICrypto` em sua classe:
 
 ```csharp
 using prmToolkit.Cryptography;
@@ -64,7 +64,7 @@ public class MyClass {
 }
 ```
 
-Se vocÃª usar manualmente:
+Se você usar manualmente:
 
 ```csharp
 using prmToolkit.Cryptography;

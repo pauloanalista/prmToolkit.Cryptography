@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Rotina para realizar criptografia e descriptografia.</Description>
+    <RepositoryUrl>https://github.com/pauloanalista/prmToolkit.Cryptography</RepositoryUrl>
+    <Authors>Paulo Rogério Martins Marques</Authors>
+    <Company></Company>
+    <UserSecretsId>69855a42-15c0-46ad-9c04-49bcecdbd708</UserSecretsId>
+    <Product>prmToolkit.Cryptography</Product>
+    <PackageProjectUrl>https://github.com/pauloanalista/prmToolkit.Cryptography</PackageProjectUrl>
+    <RepositoryType></RepositoryType>
+    <PackageTags>crypto criptografia cryptography</PackageTags>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.1.0</Version>
+    <PackageId>prmToolkit.Cryptography</PackageId>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
